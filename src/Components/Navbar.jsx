@@ -1,4 +1,4 @@
-import {Container, Nav, Navbar} from 'react-bootstrap'
+import {Button, Container, Nav, Navbar} from 'react-bootstrap'
 import {useNavigate} from 'react-router-dom'
 
 export const NavBar = () => {
@@ -9,6 +9,7 @@ export const NavBar = () => {
         <Nav className="me-auto">
           <Nav.Link onClick={() => navigate('/')}>Test</Nav.Link>
           <Nav.Link onClick={() => navigate('/maketest')}>Edit test</Nav.Link>
+          <Button>Whatsup</Button>
         </Nav>
       </Container>
     </Navbar>
