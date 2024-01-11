@@ -9,7 +9,9 @@ export const NavBar = () => {
         <Nav className="me-auto">
           <Nav.Link onClick={() => navigate('/')}>Test</Nav.Link>
           <Nav.Link onClick={() => navigate('/maketest')}>Edit test</Nav.Link>
-          <Button>Whatsup</Button>
+          <a href="https://api.whatsapp.com/send/?phone=996700871222&text=Здравствуйте%2C+у+меня+есть+вопрос">
+            Whatsup
+          </a>
         </Nav>
       </Container>
     </Navbar>
